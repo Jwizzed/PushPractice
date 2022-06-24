@@ -1,1 +1,30 @@
-Hi I am newbie
+cd Desktop
+mkdir Story
+cd Story
+touch chapter1.txt
+open chapter1.txt
+git init
+ls -a
+git status
+git add chapter1.txt
+git status
+git commit -m ‘Initial Commit’
+git log
+touch chapter2.txt
+touch chapter3.txt
+open chapter2.txt
+open chapter3.txt
+git add .
+git commit -m ‘complete 2 and 3’
+
+#ถ้าเผลอไปทำไฟล์เสีย
+git diff chapter.txt
+git checkout chapter.txt
+
+
+
+
+##push section##
+git log
+git remote add origin https://github.com/Jwizzed/sdsdsdsds.git
+git push -u origin master
